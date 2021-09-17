@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from '../../context/darkmode'
 
-export const Alert = ({ children }) => {
+const Alert = ({ children }) => {
     const theme = useContext(ThemeContext)
     return (
         <div style={{ height: "40px" }} className={` ${theme.darkMode && "bg-secondary"}`}>
@@ -14,3 +14,5 @@ export const Alert = ({ children }) => {
 Alert.propTypes = {
 
 }
+
+export default Alert

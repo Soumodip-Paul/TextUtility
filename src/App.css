@@ -2,6 +2,19 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Caveat&display=swap);
 
+.btn {
+  font-family: 'Roboto', 'Roboto Slab', serif;
+}
+
+.heading {
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.hand-written {
+  font-family: "Caveat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px !important;
+}
+
 .App {
   text-align: center;
 }
