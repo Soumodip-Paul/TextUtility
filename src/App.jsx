@@ -20,7 +20,7 @@ function App() {
 	return (
 		<ThemeContext.Provider value={{ darkMode: darkMode, setDarkMode: setDarkMode }} >
 			<AlertContext.Provider value={showAlert}>
-				<Router basename="/TextUtility/" >
+				<Router>
 					<NavbarComponent />
 					<Alert >{alert}</Alert>
 					<Switch>
