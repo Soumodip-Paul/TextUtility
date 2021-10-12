@@ -2,12 +2,26 @@
 <html lang="en">
 
 <head>
-    <title>Text Utility: Text Editor, Text formatter, Word Counter, Character Counter, Space Remover</title>
+    <script type="text/javascript">
+        // only for gh-pages integration 
+          (function(l) {
+              if (l.search[1] === '/' ) {
+                var decoded = l.search.slice(1).split('&').map(function(s) { 
+                  return s.replace(/~and~/g, '&')
+                }).join('?');
+                window.history.replaceState(null, null,
+                    l.pathname.slice(0, -1) + decoded + l.hash
+                );
+              }
+            }(window.location))
+    </script>
+    <title>TextUtility - Word counter | character counter | lowercase to uppercase | uppercase to lowercase | Extra Space Remover </title>
+    <meta name="keywords" content="TextUtility, TextUtils, MyTextUtility, MyTextUtils, word counter, character counting utility,remove extra spaces, copy text,  Uppercase to lowercase, lowercase to Uppercase, Text Formatter, Word Counting utility, Character coun utility">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="description"
-        content="Text Utility is a text reading and formatting application that can count the number of words and characters in a paragraph. It can also convert the characters in uppercase, lowercase, remove extra spaces and many more" />
+        content="TextUtility is a word counter and a character counting utility which can be used to manipulate your text in the way you want. You can remove extra spaces, copy the manipulated text as well as convert your text from Uppercase to lowercase and lowercase to Uppercase." />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />

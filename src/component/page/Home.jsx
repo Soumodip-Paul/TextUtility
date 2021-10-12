@@ -41,8 +41,8 @@ const Home = () => {
         <div className={`${theme.darkMode && "bg-secondary text-light"}`} style={{ minHeight: "85.4vh" }}>
             <div className={`p-4 container `}>
                 <h2 className="p-2 text-center heading">Text Utility</h2>
-                <label htmlFor="texgtInput" className="form-label hand-written">Enter Your Text</label>
-                <textarea className={`form-control ${theme.darkMode && "bg-secondary text-light"}`} id="texgtInput" rows="6" value={text} onChange={(e) => setText(e.target.value)}></textarea>
+                <label htmlFor="textInput" className="form-label hand-written">Enter Your Text</label>
+                <textarea className={`form-control ${theme.darkMode && "bg-secondary text-light"}`} id="textInput" rows="6" value={text} onChange={(e) => setText(e.target.value)}></textarea>
                 <p className="mx-2 my-3 hand-written">Words : {calculateWords()} &emsp;&emsp; Characters : {text.length}</p>
                 <button type="button" className="py-2 px-3 m-2 btn btn-primary" onClick={toUpperCase}>Uppercase</button>
                 <button type="button" className="py-2 px-3 m-2 btn btn-success" onClick={toLowerCase}>Lowercase</button>

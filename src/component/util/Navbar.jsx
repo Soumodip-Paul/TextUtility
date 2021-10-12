@@ -24,7 +24,7 @@ export const Navbar = ({ children, stickyTop }) => {
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                         <button className="btn btn-outline-success" type="submit">Search</button>
                     </form> */}
-                    <Switch anim id="darkmodeswitch" value={darkMode.darkMode} onChange={darkMode.setDarkMode} />
+                    <Switch anim id="darkmodeswitch" value={darkMode.darkMode} onChange={darkMode.setDarkMode} >{darkMode.darkMode ? "Dark Mode" : "Light Mode"}</Switch>
                 </div>
             </div>
         </nav>

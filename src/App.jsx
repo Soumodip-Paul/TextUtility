@@ -9,7 +9,7 @@ import { ThemeContext } from './context/darkmode';
 import { useState } from 'react'
 
 function App() {
-	const [darkMode, setDarkMode] = useState(true)
+	const [darkMode, setDarkMode] = useState(false)
 	const [alert, setAlert] = useState(null)
 
 	const showAlert = (msg) => {
